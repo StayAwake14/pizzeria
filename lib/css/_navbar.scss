@@ -1,0 +1,55 @@
+.navbar{
+    background: rgb(98,31,49);
+    background: linear-gradient(90deg, rgba(98,31,49,1) 0%, rgba(185,14,60,1) 100%, rgba(0,212,255,1) 100%);
+    .navbar-nav{
+        text-transform: uppercase;
+       // font-weight:bold;
+        font-size:1.5em;
+
+        .navbar-brand{
+            img{
+                width:50px;
+                height:50px;
+              }
+        }
+
+        a{
+            transition-duration: 300ms;
+            text-shadow: 1px 1px 7px black;
+        }
+
+        
+        a:hover{
+            transition-duration: 300ms;
+            color:limegreen !important;
+        }
+
+        
+        form .logout{
+            border:none;
+            background:none;
+            color:white;
+            font-weight:bold;
+
+            &:hover{
+                color:limegreen;
+            }
+
+            &:active{
+                outline:none;
+                border:none;
+                background:none;
+                color:white;
+                font-weight:bold;
+            }
+
+            &:focus{
+                outline:none;
+                border:none;
+                background:none;
+                color:white;
+                font-weight:bold;
+            }
+        }
+    }
+}

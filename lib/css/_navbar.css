@@ -1,0 +1,51 @@
+.navbar {
+  background: #621f31;
+  background: linear-gradient(90deg, #621f31 0%, #b90e3c 100%, #00d4ff 100%);
+}
+
+.navbar .navbar-nav {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.navbar .navbar-nav .navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar .navbar-nav a {
+  transition-duration: 300ms;
+  text-shadow: 1px 1px 7px black;
+}
+
+.navbar .navbar-nav a:hover {
+  transition-duration: 300ms;
+  color: limegreen !important;
+}
+
+.navbar .navbar-nav form .logout {
+  border: none;
+  background: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav form .logout:hover {
+  color: limegreen;
+}
+
+.navbar .navbar-nav form .logout:active {
+  outline: none;
+  border: none;
+  background: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav form .logout:focus {
+  outline: none;
+  border: none;
+  background: none;
+  color: white;
+  font-weight: bold;
+}
